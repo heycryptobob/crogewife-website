@@ -1,9 +1,9 @@
 import {
   FaTwitter,
   FaTelegram,
-  FaDiscord,
-  FaMedium,
-  FaGithub,
+  // FaDiscord,
+  // FaMedium,
+  // FaGithub,
 } from "react-icons/fa";
 
 function Socials() {
