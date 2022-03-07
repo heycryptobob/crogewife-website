@@ -9,11 +9,11 @@ function Hero() {
             <div className="flex-auto w-96">
               <h1 className="font-mono text-4xl text-white antialiased capitalize leading-relaxed">
                 The world's leading decentralized{" "}
-                <span className="text-emerald-400 capitalize">
+                <span className="underline decoration-emerald-500 capitalize">
                   auto-staking
                 </span>{" "}
-                & &nbsp;
-                <span className="text-emerald-400 capitalize">
+                &{" "}
+                <span className="underline decoration-emerald-500 capitalize">
                   Auto-compounding
                 </span>{" "}
                 protocol.
@@ -28,7 +28,7 @@ function Hero() {
                 <a
                   href="https://apybank.gitbook.io/apy-bank-whitepaper/"
                   alt="APY Bank Whitepaper"
-                  class="bg-transparent hover:bg-emerald-500 hover:bg-opacity-50 text-emerald-500 font-semibold hover:text-emerald-50 py-4 px-6 border border-emerald-500 hover:border-emerald-50 rounded text-xl font-mono"
+                  className="bg-transparent hover:bg-emerald-500 hover:bg-opacity-50 text-emerald-500 font-semibold hover:text-emerald-50 py-4 px-6 border border-emerald-500 hover:border-emerald-50 rounded text-xl font-mono"
                 >
                   Whitepaper
                 </a>
