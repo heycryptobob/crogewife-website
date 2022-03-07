@@ -1,4 +1,5 @@
 import './App.css';
+import Earn from './components/Earn';
 import Feature from './components/Feature';
 import Hero from './components/Hero';
 import Rewards from './components/Rewards';
@@ -10,7 +11,7 @@ function App() {
     <Hero />
     <Feature />
     <Rewards />
-    {/* Earn */}
+    <Earn />
     {/* Tokenomics */}
     {/* Socials */}
     {/* Footer */}
