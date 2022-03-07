@@ -4,9 +4,9 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="hero w-full">
-      <Header />
-      <div className="container mx-auto px-16">
-        <div className="flex flex-col place-content-center min-h-screen">
+      <div className="container mx-auto px-16 h-screen">
+        <Header />
+        <div className="flex flex-col place-content-center h-full">
           <div className="flex animate-fade">
             <div className="w-2/3">
               <h1 className="font-mono text-4xl text-white antialiased capitalize leading-relaxed">

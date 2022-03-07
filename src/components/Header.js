@@ -3,7 +3,7 @@ import Logo from '../logo.png';
 
 function Header() {
   return (
-    <div className="flex justify-between px-16 pt-6">
+    <div className="flex justify-between pt-6">
       <div>
         <img src={Logo} alt="logo" className='w-12 h-12 rounded border-2'/>
       </div>
