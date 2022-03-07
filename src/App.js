@@ -3,6 +3,7 @@ import Earn from './components/Earn';
 import Feature from './components/Feature';
 import Hero from './components/Hero';
 import Rewards from './components/Rewards';
+import Socials from './components/Socials';
 import Tokenomics from './components/Tokenomics';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <Rewards />
     <Earn />
     <Tokenomics />
-    {/* Socials */}
+    <Socials />
     {/* Footer */}
     </>
   );
