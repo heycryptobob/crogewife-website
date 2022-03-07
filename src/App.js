@@ -9,7 +9,6 @@ import Tokenomics from './components/Tokenomics';
 function App() {
   return (
     <>
-    {/* Header */}
     <Hero />
     <Feature />
     <Rewards />

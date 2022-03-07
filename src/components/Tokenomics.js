@@ -8,7 +8,7 @@ function Tokenomics() {
         <div className="flex justify-center">
           <div className="w-1/2 rounded-lg border">
             <table className="border-collapse table-fixed w-full text-md">
-              <thead className="bg-white bg-opacity-10">
+              <thead>
                 <tr>
                   <th className="border-b-4 font-medium p-4 text-slate-200 text-left">
                     Tax
@@ -21,34 +21,34 @@ function Tokenomics() {
                   </th>
                 </tr>
               </thead>
-              <tbody className="bg-white opacity-30">
+              <tbody className="bg-transparent">
                 <tr>
-                  <td className="p-4 text-gray-900">Liquidity Pool</td>
-                  <td className="p-4 text-gray-900 text-right">4%</td>
-                  <td className="p-4 text-gray-900 text-right">7%</td>
+                  <td className="p-4 text-slate-300">Liquidity Pool</td>
+                  <td className="p-4 text-slate-300 text-right">4%</td>
+                  <td className="p-4 text-slate-300 text-right">7%</td>
                 </tr>
                 <tr>
-                  <td className="p-4 text-gray-900">Marketing</td>
-                  <td className="p-4 text-gray-900 text-right">4%</td>
-                  <td className="p-4 text-gray-900 text-right">7%</td>
+                  <td className="p-4 text-slate-300">Marketing</td>
+                  <td className="p-4 text-slate-300 text-right">4%</td>
+                  <td className="p-4 text-slate-300 text-right">7%</td>
                 </tr>
                 <tr>
-                  <td className="p-4 text-gray-900">Referral Rewards</td>
-                  <td className="p-4 text-gray-900 text-right">5%</td>
-                  <td className="p-4 text-gray-900 text-right">0%</td>
+                  <td className="p-4 text-slate-300">Referral Rewards</td>
+                  <td className="p-4 text-slate-300 text-right">5%</td>
+                  <td className="p-4 text-slate-300 text-right">0%</td>
                 </tr>
                 <tr>
-                  <td className="p-4 text-gray-900">Operations</td>
-                  <td className="p-4 text-gray-900 text-right">2%</td>
-                  <td className="p-4 text-gray-900 text-right">2%</td>
+                  <td className="p-4 text-slate-300">Operations</td>
+                  <td className="p-4 text-slate-300 text-right">2%</td>
+                  <td className="p-4 text-slate-300 text-right">2%</td>
                 </tr>
                 <tr>
-                  <td className="p-4 text-gray-900">Auto-Burn</td>
-                  <td className="p-4 text-gray-900 text-right">2%</td>
-                  <td className="p-4 text-gray-900 text-right">2%</td>
+                  <td className="p-4 text-slate-300">Auto-Burn</td>
+                  <td className="p-4 text-slate-300 text-right">2%</td>
+                  <td className="p-4 text-slate-300 text-right">2%</td>
                 </tr>
               </tbody>
-              <tfoot className="bg-white bg-opacity-10">
+              <tfoot>
                 <tr>
                   <th className="border-t-4 font-medium p-4 text-slate-200 text-left">
                     Total

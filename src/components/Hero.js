@@ -1,8 +1,10 @@
+import Header from "./Header";
 import "./Hero.css";
 
 function Hero() {
   return (
     <div className="hero w-full">
+      <Header />
       <div className="container mx-auto px-16">
         <div className="flex flex-col place-content-center min-h-screen">
           <div className="flex animate-fade">
