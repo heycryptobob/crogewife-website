@@ -7,7 +7,7 @@ function Hero() {
     <div className="hero w-full">
       <div className="container mx-auto px-8 md:px-16">
         <Header />
-        <div className="py-16">
+        <div className="pt-16 pb-32">
           <div className="flex">
             <div className="w-full lg:w-2/3">
               <div className="lg:invisible w-64 mb-8 lg:mb-0">
