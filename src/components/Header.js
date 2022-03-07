@@ -1,5 +1,5 @@
-import { FaTwitter, FaTelegram, FaDiscord, FaMedium, FaGithub } from 'react-icons/fa';
-import Logo from '../logo.png';
+import Logo from '../logo.jpeg';
+import { SocialLinks } from './Socials';
 
 function Header() {
   return (
@@ -7,12 +7,8 @@ function Header() {
       <div>
         <img src={Logo} alt="logo" className='w-12 h-12 rounded border-2'/>
       </div>
-      <div className="flex justify-end gap-4 items-center">
-          <a href="" className='text-white text-xl'><FaTwitter /></a>
-          <a href="" className='text-white text-xl'><FaTelegram /></a>
-          <a href="" className='text-white text-xl'><FaDiscord /></a>
-          <a href="" className='text-white text-xl'><FaMedium /></a>
-          <a href="" className='text-white text-xl'><FaGithub /></a>
+      <div className="flex justify-end gap-4 items-center text-white text-xl">
+        <SocialLinks />
       </div>
     </div>
   )

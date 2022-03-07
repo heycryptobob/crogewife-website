@@ -12,7 +12,7 @@ function Feature() {
         </h2>
         <div className="flex lg:flex-row flex-col gap-4 lg:gap-32 justify-center items-center">
           <div className="text-center lg:w-1/2">
-            <div className="text-emerald-500 text-3xl lg:text-7xl drop-shadow-2xl shadow mt-4 lg:my-8 font-semibold">
+            <div className="text-emerald-500 text-5xl lg:text-7xl drop-shadow-2xl shadow mt-4 lg:my-8 font-semibold">
               <VisibilitySensor partialVisibility offset={{ bottom: 50 }}>
                 {({ isVisible }) => (
                   <div style={{ height: 64 }}>
