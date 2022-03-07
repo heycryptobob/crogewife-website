@@ -1,12 +1,12 @@
 function Tokenomics() {
   return (
     <div className="bg-gray-900 w-full">
-      <div className="container mx-auto px-16 py-16">
-        <h2 className="text-center text-white capitalize text-5xl font-mono mb-12">
+      <div className="container mx-auto px-8 lg:px-16 py-16">
+        <h2 className="text-center text-white capitalize text-3xl lg:text-5xl font-mono mb-12">
           Tokenomics
         </h2>
         <div className="flex justify-center">
-          <div className="w-1/2 rounded-lg border">
+          <div className="w-full lg:w-1/2 rounded-lg border">
             <table className="border-collapse table-fixed w-full text-md">
               <thead>
                 <tr>

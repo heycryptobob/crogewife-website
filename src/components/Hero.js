@@ -4,12 +4,12 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="hero w-full">
-      <div className="container mx-auto px-16 h-screen">
+      <div className="container mx-auto px-8 md:px-16">
         <Header />
-        <div className="flex flex-col place-content-center h-full">
-          <div className="flex animate-fade">
-            <div className="w-2/3">
-              <h1 className="font-mono text-4xl text-white antialiased capitalize leading-relaxed">
+        <div className="py-16">
+          <div className="flex">
+            <div className="w-full lg:w-2/3">
+              <h1 className="font-mono text-3xl lg:text-4xl text-white antialiased capitalize leading-relaxed lg:leading-loose">
                 The world's leading decentralized{" "}
                 <span className="underline decoration-emerald-500 capitalize">
                   auto-staking
@@ -20,7 +20,7 @@ function Hero() {
                 </span>{" "}
                 protocol.
               </h1>
-              <ul className="mt-8 capitalize leading-loose text-gray-400 text-2xl font-mono list-disc list-inside">
+              <ul className="mt-8 capitalize leading-relaxed lg:leading-loose text-gray-400 text-xl lg:text-2xl font-mono list-disc list-inside">
                 <li>Highest Fixed APY - 333,333%</li>
                 <li>Automatic Staking and Compounding</li>
                 <li>Get Rewards Every 30 Minutes</li>
@@ -36,7 +36,7 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <div className="w-1/3">
+            <div className="w-0 lg:w-1/3">
 <svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <title>apy-bank</title>
     <g id="apy-bank" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
