@@ -3,28 +3,29 @@ import "./Earn.css";
 function Earn() {
   return (
     <div className="bg-gray-900 w-full earn">
-      <div className="container mx-auto p-16">
+      <div className="container mx-auto px-16 py-32">
         {/* <p>Our products are powered by DeFi and are designed to help you effortlessly generate cash flow from your crypto.</p> */}
-        <div className="grid grid-cols-2 gap-4">
-          <div></div>
+        <div className="grid grid-cols-2 gap-4 items-center">
+          <div>
+            <h2 className="text-white leading-relaxed capitalize text-5xl mb-8">
+              So,
+              <br />{" "}
+              <span className="underline decoration-emerald-500">
+                how much
+              </span>{" "}
+              can I earn?
+            </h2>
+          </div>
           <div className="text-gray-100 text-3xl leading-loose">
-          <h2 className="text-white leading-relaxed capitalize text-5xl mb-8">
-          So,<br/> <span className="underline decoration-emerald-500">how much</span>{" "}
-          can I earn?
-        </h2>
             <p>
               At the end of one year and with{" "}
-              <span className="text-emerald-500">
-                $1000 USD
-              </span>{" "}
-              of $APY invested.
+              <span className="text-emerald-500">$1000 USD</span> of $APY
+              invested.
             </p>
             <p>
               You can earn up to <br />
-              <span className="text-emerald-500">
-                $ 3,333,330 USD
-              </span>{" "}
-              of $APY.<sup>*</sup>
+              <span className="text-emerald-500">$ 3,333,330 USD</span> of $APY.
+              <sup>*</sup>
             </p>
             <p className="text-white text-sm mt-8">
               <sup>*</sup>Earnings are calculated in a scenario where the RFV

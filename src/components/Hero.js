@@ -6,7 +6,7 @@ function Hero() {
       <div className="container mx-auto px-16">
         <div className="flex flex-col place-content-center min-h-screen">
           <div className="flex animate-fade">
-            <div className="flex-auto w-96">
+            <div className="w-2/3">
               <h1 className="font-mono text-4xl text-white antialiased capitalize leading-relaxed">
                 The world's leading decentralized{" "}
                 <span className="underline decoration-emerald-500 capitalize">
@@ -18,7 +18,7 @@ function Hero() {
                 </span>{" "}
                 protocol.
               </h1>
-              <ul className="mt-8 capitalize text-gray-400 text-2xl font-mono list-disc list-inside">
+              <ul className="mt-8 capitalize leading-loose text-gray-400 text-2xl font-mono list-disc list-inside">
                 <li>Highest Fixed APY - 333,333%</li>
                 <li>Automatic Staking and Compounding</li>
                 <li>Get Rewards Every 30 Minutes</li>
@@ -34,7 +34,7 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <div className="flex-auto w-16">
+            <div className="w-1/3">
 <svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <title>apy-bank</title>
     <g id="apy-bank" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
