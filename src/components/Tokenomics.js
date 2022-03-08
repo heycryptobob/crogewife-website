@@ -13,10 +13,10 @@ function Tokenomics() {
                   <th className="border-b-4 font-medium p-4 text-slate-200 text-left">
                     Tax
                   </th>
-                  <th className="border-b-4 font-medium p-4 text-slate-200 text-right">
+                  <th className="border-b-4 font-medium p-4 text-emerald-500 text-right">
                     Buy
                   </th>
-                  <th className="border-b-4 font-medium p-4 text-slate-100 text-right">
+                  <th className="border-b-4 font-medium p-4 text-red-500 text-right">
                     Sell
                   </th>
                 </tr>
@@ -53,10 +53,10 @@ function Tokenomics() {
                   <th className="border-t-4 font-medium p-4 text-slate-200 text-left">
                     Total
                   </th>
-                  <th className="border-t-4 font-medium p-4 text-slate-200 text-right">
+                  <th className="border-t-4 font-medium p-4 text-emerald-500 text-right">
                     17%
                   </th>
-                  <th className="border-t-4 font-medium p-4 text-slate-100 text-right">
+                  <th className="border-t-4 font-medium p-4 text-red-500 text-right">
                     12%
                   </th>
                 </tr>

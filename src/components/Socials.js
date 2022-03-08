@@ -6,6 +6,19 @@ import {
   // FaGithub,
 } from "react-icons/fa";
 
+export const socials = [
+  {
+    name: "Twitter",
+    url: "https://twitter.com/apy_bank",
+    icon: <FaTwitter />,
+  },
+  {
+    name: "Telegram",
+    url: "https://t.me/APYBank",
+    icon: <FaTelegram />,
+  },
+];
+
 function Socials() {
   return (
     <div className="bg-gray-900 w-full border-b-white">
@@ -14,33 +27,28 @@ function Socials() {
           Stay in touch
         </h2>
         <div className="flex gap-4 lg:gap-16 justify-center text-white text-2xl lg:text-5xl">
-          <SocialLinks />
+          <SocialIcons />
         </div>
       </div>
     </div>
   );
 }
 
-export function SocialLinks() {
+export function SocialIcons({ hasText }) {
   return (
     <>
-      <a href="https://twitter.com/apy_bank" target="_blank" rel="noreferrer">
-        <FaTwitter />
-      </a>
-      <a href="https://t.me/APYBank" target="_blank" rel="noreferrer">
-        <FaTelegram />
-      </a>
-      {/* <a href="" target="_blank" rel="noreferrer">
-        <FaDiscord />
-      </a>
-      <a href="" target="_blank" rel="noreferrer">
-        <FaMedium />
-      </a>
-      <a href="" target="_blank" rel="noreferrer">
-        <FaGithub />
-      </a> */}
+      {socials.map(({ name, url, icon }, k) => (
+        <a key={k} href={url} target="_blank" rel="noreferrer" className="flex items-center hover:text-white">
+          {icon}
+          { hasText ? <span className="ml-1 capitalize">{name}</span> : null }
+        </a>
+      ))}
     </>
   );
+}
+
+SocialIcons.defaultProps = {
+  hasText: false
 }
 
 export default Socials;

@@ -1,5 +1,5 @@
 import Logo from '../logo.jpeg';
-import { SocialLinks } from './Socials';
+import { SocialIcons } from './Socials';
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
         <img src={Logo} alt="logo" className='w-12 h-12 rounded border-2'/>
       </div>
       <div className="flex justify-end gap-4 items-center text-white text-xl">
-        <SocialLinks />
+        <SocialIcons />
       </div>
     </div>
   )

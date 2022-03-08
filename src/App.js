@@ -1,23 +1,24 @@
-import './App.css';
-import Earn from './components/Earn';
-import Feature from './components/Feature';
-import Hero from './components/Hero';
-import Rewards from './components/Rewards';
-import Socials from './components/Socials';
-import Tokenomics from './components/Tokenomics';
-import Utility from './components/Utility';
+import "./App.css";
+import Earn from "./components/Earn";
+import Feature from "./components/Feature";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Rewards from "./components/Rewards";
+import Socials from "./components/Socials";
+import Tokenomics from "./components/Tokenomics";
+import Utility from "./components/Utility";
 
 function App() {
   return (
     <>
-    <Hero />
-    <Feature />
-    <Rewards />
-    <Earn />
-    <Utility />
-    <Tokenomics />
-    <Socials />
-    {/* Footer */}
+      <Hero />
+      <Feature />
+      <Rewards />
+      <Earn />
+      <Utility />
+      <Tokenomics />
+      <Socials />
+      <Footer />
     </>
   );
 }
