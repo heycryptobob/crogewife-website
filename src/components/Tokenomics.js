@@ -10,13 +10,13 @@ function Tokenomics() {
             <table className="border-collapse table-fixed w-full text-md">
               <thead>
                 <tr>
-                  <th className="border-b-4 font-medium p-4 text-slate-200 text-left">
+                  <th className="bg-white font-medium p-4 text-gray-900 text-left rounded-tl">
                     Tax
                   </th>
-                  <th className="border-b-4 font-medium p-4 text-emerald-500 text-right">
+                  <th className="bg-white font-medium p-4 text-gray-900 text-right">
                     Buy
                   </th>
-                  <th className="border-b-4 font-medium p-4 text-red-500 text-right">
+                  <th className="bg-white font-medium p-4 text-gray-900 text-right rounded-tr">
                     Sell
                   </th>
                 </tr>
@@ -50,14 +50,14 @@ function Tokenomics() {
               </tbody>
               <tfoot>
                 <tr>
-                  <th className="border-t-4 font-medium p-4 text-slate-200 text-left">
+                  <th className="bg-white font-medium p-4 text-gray-900 text-left rounded-bl">
                     Total
                   </th>
-                  <th className="border-t-4 font-medium p-4 text-emerald-500 text-right">
+                  <th className="bg-white font-medium p-4 text-gray-900 text-right">
                     17%
                   </th>
-                  <th className="border-t-4 font-medium p-4 text-red-500 text-right">
-                    12%
+                  <th className="bg-white font-medium p-4 text-gray-900 text-right rounded-br">
+                    18%
                   </th>
                 </tr>
               </tfoot>
