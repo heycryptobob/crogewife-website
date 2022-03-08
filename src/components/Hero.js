@@ -34,6 +34,8 @@ function Hero() {
                 <a
                   href="https://apybank.gitbook.io/apy-bank-whitepaper/"
                   alt="APY Bank Whitepaper"
+                  target="_blank"
+                  rel="noreferrer"
                   className="bg-transparent hover:bg-emerald-500 hover:bg-opacity-50 text-emerald-500 font-semibold hover:text-emerald-50 py-4 px-6 border border-emerald-500 hover:border-emerald-50 rounded text-xl font-mono"
                 >
                   Whitepaper

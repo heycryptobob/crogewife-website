@@ -2,12 +2,11 @@ import "./Earn.css";
 
 function Earn() {
   return (
-    <div className="bg-gray-900 w-full earn">
+    <div className="bg-gray-900 w-full border-y-white border-y-8 earn">
       <div className="container mx-auto px-8 lg:px-16 py-32">
-        {/* <p>Our products are powered by DeFi and are designed to help you effortlessly generate cash flow from your crypto.</p> */}
         <div className="flex lg:flex-row flex-col gap-4 lg:gap-32 items-center">
           <div>
-            <h2 className="text-white leading-relaxed capitalize text-5xl mb-8">
+            <h2 className="text-white leading-relaxed capitalize text-5xl mb-8 font-mono">
               So,
               <br />{" "}
               <span className="underline decoration-emerald-500">

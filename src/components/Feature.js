@@ -5,7 +5,7 @@ function Feature() {
   return (
     <div className="bg-gray-900 w-full">
       <div className="container mx-auto px-8 lg:px-16 py-16">
-        <h2 className="text-center text-white capitalize text-2xl lg:text-5xl font-mono mb-12">
+        <h2 className="text-center text-white capitalize text-2xl lg:text-5xl font-mono mb-8">
           Buy<span className="text-emerald-500">.</span> Hold
           <span className="text-emerald-500">.</span> Earn
           <span className="text-emerald-500">.</span>
