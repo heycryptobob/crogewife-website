@@ -25,17 +25,17 @@ function Tokenomics() {
                 <tr>
                   <td className="p-4 text-slate-300">Liquidity Pool</td>
                   <td className="p-4 text-slate-300 text-right">4%</td>
-                  <td className="p-4 text-slate-300 text-right">7%</td>
+                  <td className="p-4 text-slate-300 text-right">5%</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-300">Treasury</td>
-                  <td className="p-4 text-slate-300 text-right">4%</td>
-                  <td className="p-4 text-slate-300 text-right">7%</td>
+                  <td className="p-4 text-slate-300 text-right">5%</td>
+                  <td className="p-4 text-slate-300 text-right">5%</td>
                 </tr>
                 <tr>
-                  <td className="p-4 text-slate-300">Referral Rewards</td>
+                  <td className="p-4 text-slate-300">RFV</td>
                   <td className="p-4 text-slate-300 text-right">5%</td>
-                  <td className="p-4 text-slate-300 text-right">0%</td>
+                  <td className="p-4 text-slate-300 text-right">5%</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-300">Operations</td>
@@ -44,8 +44,8 @@ function Tokenomics() {
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-300">Auto-Burn</td>
-                  <td className="p-4 text-slate-300 text-right">2%</td>
-                  <td className="p-4 text-slate-300 text-right">2%</td>
+                  <td className="p-4 text-slate-300 text-right">1%</td>
+                  <td className="p-4 text-slate-300 text-right">1%</td>
                 </tr>
               </tbody>
               <tfoot>
