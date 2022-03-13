@@ -28,7 +28,7 @@ function Tokenomics() {
                   <td className="p-4 text-slate-300 text-right">7%</td>
                 </tr>
                 <tr>
-                  <td className="p-4 text-slate-300">Marketing</td>
+                  <td className="p-4 text-slate-300">Treasury</td>
                   <td className="p-4 text-slate-300 text-right">4%</td>
                   <td className="p-4 text-slate-300 text-right">7%</td>
                 </tr>
