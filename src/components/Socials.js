@@ -1,6 +1,7 @@
 import {
   FaTwitter,
   FaTelegram,
+  FaDiscord,
   // FaDiscord,
   // FaMedium,
   // FaGithub,
@@ -16,6 +17,11 @@ export const socials = [
     name: "Telegram",
     url: "https://t.me/APYBank",
     icon: <FaTelegram />,
+  },
+  {
+    name: "Discord",
+    url: "https://discord.gg/8Ycqt9QRuF",
+    icon: <FaDiscord />,
   },
 ];
 
