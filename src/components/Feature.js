@@ -41,7 +41,7 @@ function Feature() {
             <p className="text-white text-justify">
               APY Bank uses a <span className="underline decoration-emerald-500 capitalize">Positive Rebase Algorithm</span> to provide daily
               token distribution that is directly proportionate to the daily
-              rebase incentives, worth <span className="underline decoration-emerald-500">2,247%</span> of the total quantity of
+              rebase incentives, worth <span className="underline decoration-emerald-500">2.247%</span> of the total quantity of
               tokens a $APY token owned in your wallet, without having to remove their tokens from their
               wallet. The rebase payments are
               awarded to all $APY holders at each epoch (rebase period).

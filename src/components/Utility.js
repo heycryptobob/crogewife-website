@@ -8,7 +8,7 @@ function Utility() {
           <div className="border-white border-opacity-20 border-4 hover:border-emerald-500 rounded-lg p-8 m-0 lg:m-4 bg-white bg-opacity-5 hover:bg-emerald-500 hover:text-gray-900">
               <h3 className="text-xl font-semibold mb-4">APY Referral System</h3>
               <p>
-                Referrers earn 3% rewards in $WBTC on buys. Referees get a 2% discount on buys.
+                Referrers earn 3% rewards in $APY on buys. Referees get a 2% discount on buys.
               </p>
             </div>
           </div>
