@@ -1,4 +1,4 @@
-import Logo from '../logo.jpeg';
+import Logo from '../logo.png';
 // import { SocialIcons } from './Socials';
 
 function Header() {

@@ -40,6 +40,30 @@ function Hero() {
                 >
                   Whitepaper
                 </a>
+                <a
+                  href="https://pancakeswap.finance/swap?outputCurrency=0x7f75b4f6215dc2d89132f2ff199cd3fdea55f6ef"
+                  alt="Buy APY Bank Token"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mx-2 bg-transparent hover:bg-emerald-500 hover:bg-opacity-50 text-emerald-500 font-semibold hover:text-emerald-50 py-4 px-6 border border-emerald-500 hover:border-emerald-50 rounded text-xl font-mono"
+                >
+                  Buy
+                </a>
+                <a
+                  href="https://app.apybank.net/"
+                  alt="Buy APY Bank Token"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-transparent hover:bg-emerald-500 hover:bg-opacity-50 text-emerald-500 font-semibold hover:text-emerald-50 py-4 px-6 border border-emerald-500 hover:border-emerald-50 rounded text-xl font-mono"
+                >
+                  App
+                </a>
+              </div>
+              <div className="mt-12">
+                <code className="p-4 border border-slate-400 text-slate-400 rounded bg-white bg-opacity-5">
+                  <span className="mr-2">BSC:</span>
+                  <span>0x7f75b4f6215dc2d89132f2ff199cd3fdea55f6ef</span>
+                </code>
               </div>
             </div>
             <div className="w-0 lg:w-1/3">
