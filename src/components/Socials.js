@@ -12,39 +12,36 @@ import {
 export const socials = [
   {
     name: "Twitter",
-    url: "https://twitter.com/apy_bank",
+    url: "https://twitter.com/crogewife",
     icon: <FaTwitter />,
   },
   {
     name: "Telegram",
-    url: "https://t.me/APYBank",
+    url: "https://t.me/crogewife",
     icon: <FaTelegram />,
   },
   {
     name: "Discord",
-    url: "https://discord.gg/8Ycqt9QRuF",
+    url: "https://discord.gg/crogewife",
     icon: <FaDiscord />,
   },
   {
     name: "Facebook",
-    url: "https://www.facebook.com/apybankbsc",
+    url: "https://www.facebook.com/crogewife",
     icon: <FaFacebook />,
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/apybank/",
+    url: "https://www.instagram.com/crogewife/",
     icon: <FaInstagram />,
   },
 ];
 
 function Socials() {
   return (
-    <div className="bg-gray-900 w-full border-b-white">
-      <div className="container mx-auto px-8 lg:px-16 py-32">
-        <h2 className="text-center text-emerald-500 uppercase text-2xl font-mono mb-12">
-          Stay in touch
-        </h2>
-        <div className="flex gap-4 lg:gap-16 justify-center text-white text-2xl lg:text-5xl">
+    <div>
+      <div className="container mx-auto px-8 lg:px-16 mt-8">
+        <div className="flex gap-8 lg:gap-16 justify-center text-white text-2xl">
           <SocialIcons />
         </div>
       </div>
