@@ -2,13 +2,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Logo from "../logo.png";
 import Socials from "../components/Socials"
+import Modal from "../components/Modal";
+import Token from "../components/Token";
+import Tokenomics from "../components/Tokenomics";
+import NFT from "../components/NFT";
+import P2E from "../components/P2E";
+import Stake from "../components/Stake";
+import Bridge from "../components/Bridge";
 
 const list = [
-  { title: "Token" },
-  { title: "Tax" },
-  { title: "NFT" },
-  { title: "P2E" },
-  { title: "Staking" },
+  { title: "Token", children: <Token /> },
+  { title: "Tax", children: <Tokenomics /> },
+  { title: "NFT", children: <NFT /> },
+  { title: "P2E", children: <P2E /> },
+  { title: "Staking", children: <Stake /> },
 ];
 
 function Hero() {
@@ -21,9 +28,7 @@ function Hero() {
         <div className="flex flex-col gap-8">
           <div className="flex justify-evenly text-indigo-100 font-semibold">
             {list.map((item) => (
-              <div>
-                <a href="#" className="hover:underline">{item.title}</a>
-              </div>
+              <Modal title={item.title}>{item.children}</Modal>
             ))}
           </div>
           <div className="flex justify-center">
@@ -49,7 +54,7 @@ function Hero() {
             <Socials />
           </div>
           <div className="text-center text-indigo-50">
-            <button className="antialiased">How To: Bridge assets to Cronos</button>
+            <Modal title="How To: Bridge assets to Cronos"><Bridge /></Modal>
           </div>
         </div>
       </div>
