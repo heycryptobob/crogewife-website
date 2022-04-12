@@ -12,7 +12,7 @@ import {
 export const socials = [
   {
     name: "Twitter",
-    url: "https://twitter.com/crogewife",
+    url: "https://twitter.com/CrogeWifeCRO",
     icon: <FaTwitter />,
   },
   {

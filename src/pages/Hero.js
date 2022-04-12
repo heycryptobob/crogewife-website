@@ -53,7 +53,7 @@ function Hero() {
           <div>
             <Socials />
           </div>
-          <div className="text-center text-indigo-50">
+          <div className="text-center text-indigo-50 mb-4">
             <Modal title="How To: Bridge assets to Cronos"><Bridge /></Modal>
           </div>
         </div>

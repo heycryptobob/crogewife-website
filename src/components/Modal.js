@@ -68,7 +68,7 @@ export default function Modal({ title, children }) {
                   <div className='flex justify-between'>
                     <div>{title}</div>
                     <div>
-                      <button onClick={closeModal}><XIcon className='h-4 w-4'/></button>
+                      <button className="" onClick={closeModal}><XIcon className='h-4 w-4'/></button>
                     </div>
                   </div>
                 </Dialog.Title>
