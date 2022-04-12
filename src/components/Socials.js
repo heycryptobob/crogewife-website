@@ -22,19 +22,19 @@ export const socials = [
   },
   {
     name: "Discord",
-    url: "https://discord.gg/crogewife",
+    url: "https://discord.gg/YGKh7zXUUG",
     icon: <FaDiscord />,
   },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com/crogewife",
-    icon: <FaFacebook />,
-  },
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/crogewife/",
-    icon: <FaInstagram />,
-  },
+  // {
+  //   name: "Facebook",
+  //   url: "https://www.facebook.com/crogewife",
+  //   icon: <FaFacebook />,
+  // },
+  // {
+  //   name: "Instagram",
+  //   url: "https://www.instagram.com/crogewife/",
+  //   icon: <FaInstagram />,
+  // },
 ];
 
 function Socials() {

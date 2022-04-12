@@ -18,13 +18,13 @@ function Tokenomics() {
         <tbody className="bg-transparent">
           <tr>
             <td className="pr-4 py-2 text-gray-600">Liquidity Pool</td>
+            <td className="pr-4 py-2 text-gray-600 text-right">1%</td>
             <td className="pr-4 py-2 text-gray-600 text-right">2%</td>
-            <td className="pr-4 py-2 text-gray-600 text-right">3%</td>
           </tr>
           <tr>
             <td className="pr-4 py-2 text-gray-600">Marketing</td>
             <td className="pr-4 py-2 text-gray-600 text-right">5%</td>
-            <td className="pr-4 py-2 text-gray-600 text-right">9%</td>
+            <td className="pr-4 py-2 text-gray-600 text-right">7%</td>
           </tr>
           <tr>
             <td className="pr-4 py-2 text-gray-600">Development</td>
@@ -34,7 +34,7 @@ function Tokenomics() {
           <tr>
             <td className="pr-4 py-2 text-gray-600">CRO Rewards</td>
             <td className="pr-4 py-2 text-gray-600 text-right">1%</td>
-            <td className="pr-4 py-2 text-gray-600 text-right">2%</td>
+            <td className="pr-4 py-2 text-gray-600 text-right">1%</td>
           </tr>
         </tbody>
         <tfoot>
@@ -43,10 +43,10 @@ function Tokenomics() {
               Total
             </th>
             <th className="bg-white font-medium pr-4 py-2 text-gray-900 text-right">
-              10%
+              9%
             </th>
             <th className="bg-white font-medium pr-4 py-2 text-gray-900 text-right rounded-br">
-              15%
+              12%
             </th>
           </tr>
         </tfoot>
