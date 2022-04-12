@@ -2,9 +2,8 @@ import {
   FaTwitter,
   FaTelegram,
   FaDiscord,
-  FaFacebook,
-  FaInstagram,
-  // FaDiscord,
+  // FaFacebook,
+  // FaInstagram,
   // FaMedium,
   // FaGithub,
 } from "react-icons/fa";
