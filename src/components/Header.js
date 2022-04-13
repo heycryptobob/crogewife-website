@@ -1,6 +1,5 @@
 import Logo from '../assets/title.png';
 import LogoAlt from '../assets/logo.png';
-import { SocialIcons } from './Socials';
 
 function MenuItem({ title, url }) {
 
@@ -16,7 +15,7 @@ function Menu() {
     <div className='text-xs md:text-sm flex gap-4 md:gap-8 items-center'>
       <MenuItem title="Buy" url="#" />
       <MenuItem title="Chart" url="#" />
-      <a href="https://app.crogewife.com" target="_blank" rel="noreferrer" className="border-2 border-white rounded-lg p-2 bg-transparent font-semibold hover:bg-white hover:text-slate-800">dApp</a>
+      <a href="https://app.crogewife.com" target="_blank" rel="noreferrer" className="border-2 border-white rounded-lg px-4 py-2 bg-transparent font-semibold hover:bg-white hover:text-slate-800 uppercase">app</a>
     </div>
   )
 }

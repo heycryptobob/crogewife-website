@@ -36,7 +36,7 @@ function Hero() {
               <Button title="buy" url="#" />
               <Button title="chart" url="#" />
               <Button title="audit" url="https://github.com/interfinetwork/smart-contract-audits/blob/audit-updates/CrogeWife_AuditReport_InterFi.pdf" />
-              <Button title="dapp" url="https://app.crogewife.com/" />
+              <Button title="app" url="https://app.crogewife.com/" />
 
             </div>
             <p>
