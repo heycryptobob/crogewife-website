@@ -32,15 +32,18 @@ function Hero() {
               <li>Stake NFTs</li>
               <li>P2E Games</li>
             </ul>
+            <div>
+              <code className="p-2 bg-slate-600 text-xs rounded-lg">Contract: 0x8f11f9918b613CE9c9220A6F32cbf796e1761c32</code>
+            </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-center py-8">
-              <Button title="buy" url="#" />
-              <Button title="chart" url="#" />
+              <Button title="buy" url="https://mm.finance/swap?outputCurrency=0x8f11f9918b613CE9c9220A6F32cbf796e1761c32" />
+              <Button title="chart" url="https://dexscreener.com/cronos/0x1c49efec84948d109b429901ac6df3f316ee500f" />
               <Button title="audit" url="https://github.com/interfinetwork/smart-contract-audits/blob/audit-updates/CrogeWife_AuditReport_InterFi.pdf" />
               <Button title="app" url="https://app.crogewife.com/" />
 
             </div>
             <p>
-              Launching on <img src={CronosWhite} className="h-8 inline ml-1" />
+              Available on <img src={CronosWhite} className="h-8 inline ml-1" />
             </p>
           </div>
           <div className="justify-center items-center hidden lg:flex">
