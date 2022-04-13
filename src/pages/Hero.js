@@ -1,89 +1,54 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Logo from "../logo.png";
-import Socials from "../components/Socials";
-import Modal from "../components/Modal";
-import Token from "../components/Token";
-import Tokenomics from "../components/Tokenomics";
-import NFT from "../components/NFT";
-import P2E from "../components/P2E";
-import Stake from "../components/Stake";
-import Bridge from "../components/Bridge";
+import Header from "../components/Header";
+import CronosWhite from "../assets/cronos-white.svg";
+import Logo from "../assets/logo.png";
 
-const list = [
-  { title: "Token", children: <Token /> },
-  { title: "Tax", children: <Tokenomics /> },
-  { title: "NFT", children: <NFT /> },
-  { title: "P2E", children: <P2E /> },
-  { title: "Staking", children: <Stake /> },
-];
+function Button({ title, url }) {
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      className="basis-1/2 lg:basis-1/4 rounded-lg border-2 border-white hover:border-green-400 hover:text-green-400 px-4 py-2 uppercase"
+    >
+      {title}
+    </a>
+  );
+}
 
 function Hero() {
   return (
-    <div className="hero w-full h-screen bg-indigo-900 antialiased">
-      <div className="container mx-auto px-4 md:px-4 md:w-3/4 lg:w-1/2">
-        <div className="flex justify-center">
-          <img src={Logo} className="max-h-96" />
-        </div>
-        <div className="flex flex-col gap-8">
-          <div className="flex justify-evenly text-indigo-100 font-semibold">
-            {list.map((item) => (
-              <Modal title={item.title}>{item.children}</Modal>
-            ))}
-          </div>
-          <div className="flex justify-center">
-            <div className="bg-indigo-400 py-2 px-8 rounded-full bg-opacity-20 text-xs text-center text-indigo-50 w-fit">
-              Stealth launch April 13th - Cronos Chain
+    <div className="bg-gradient-to-b from-slate-800 to-slate-600 border-b-2">
+      <div className="container mx-auto px-4 md:px-4 md:w-4/5">
+        <Header />
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-16">
+          <div className="text-white">
+            <p className="text-2xl py-4">
+              <span className="font-semibold">CROGEWIFE</span> - Aspire for more
+            </p>
+            <ul className="py-4">
+              <li>Earn $CRO rewards</li>
+              <li>Stake NFTs</li>
+              <li>P2E Games</li>
+            </ul>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-center py-8">
+              <Button title="buy" url="#" />
+              <Button title="chart" url="#" />
+              <Button title="audit" url="https://github.com/interfinetwork/smart-contract-audits/blob/audit-updates/CrogeWife_AuditReport_InterFi.pdf" />
+              <Button title="dapp" url="https://app.crogewife.com/" />
+
             </div>
+            <p>
+              Launching on <img src={CronosWhite} className="h-8 inline ml-1" />
+            </p>
           </div>
-          <div className="flex justify-center gap-8 text-center font-semibold">
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-              className="basis-1/2 lg:basis-1/4 rounded-full bg-green-400 text-green-50 hover:bg-green-500 py-2"
-            >
-              Buy
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-              className="basis-1/2 lg:basis-1/4 rounded-full bg-indigo-500 text-green-50 hover:bg-indigo-600 py-2"
-            >
-              Chart
-            </a>
-          </div>
-          <div className="flex justify-center gap-8 text-center font-semibold">
-            <a
-              href="https://app.crogewife.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="basis-1/2 lg:basis-1/4 rounded-full bg-pink-500 text-pink-50 hover:bg-pink-600 py-2"
-            >
-              dApp
-            </a>
-            <a
-              href="https://github.com/interfinetwork/smart-contract-audits/blob/audit-updates/CrogeWife_AuditReport_InterFi.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="basis-1/2 lg:basis-1/4 rounded-full bg-purple-500 text-purple-50 hover:bg-purple-600 py-2"
-            >
-              Audit
-            </a>
-          </div>
-          <div>
-            <Socials />
-          </div>
-          <div className="text-center text-indigo-50 mb-4">
-            <Modal title="How To: Bridge assets to Cronos">
-              <Bridge />
-            </Modal>
+          <div className="justify-center items-center hidden lg:flex">
+            <img src={Logo} className="max-h-64 " />
           </div>
         </div>
       </div>
     </div>
   );
-}
-
+}  
 export default Hero;

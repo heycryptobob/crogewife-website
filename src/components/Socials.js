@@ -40,7 +40,7 @@ function Socials() {
   return (
     <div>
       <div className="container mx-auto px-8 lg:px-16 mt-8">
-        <div className="flex gap-8 lg:gap-16 justify-center text-white text-2xl">
+        <div className="flex gap-8 lg:gap-16 justify-center text-slate-600 text-2xl">
           <SocialIcons />
         </div>
       </div>
