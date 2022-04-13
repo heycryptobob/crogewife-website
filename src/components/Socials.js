@@ -52,7 +52,7 @@ export function SocialIcons({ hasText }) {
   return (
     <>
       {socials.map(({ name, url, icon }, k) => (
-        <a key={k} href={url} target="_blank" rel="noreferrer" className="flex items-center hover:text-white">
+        <a key={k} href={url} target="_blank" rel="noreferrer" className="flex items-center hover:text-slate-700">
           {icon}
           { hasText ? <span className="ml-1 capitalize">{name}</span> : null }
         </a>
